@@ -6,6 +6,7 @@ public class DemoDto {
 	private String add;
 	private int id;
 	private double sal;
+	private int age;
 	public String getName() {
 		return name;
 	}
@@ -29,6 +30,12 @@ public class DemoDto {
 	}
 	public void setSal(double sal) {
 		this.sal = sal;
+	}
+	public int getage(){
+		return age;
+	}
+	public void setage(int age){
+		this.age = age;
 	}
 
 }
